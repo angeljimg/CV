@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.cabeza {
+    background-color: rgb(47, 124, 196);
+    position: relative;
+}
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(219, 230, 236);
+    border: solid black 1px;
+}
+#nombre {
+    display: inline-block;
+    color: white;
+    font-size:20pt;
+    margin-left: 3%;
+}
+#titulo {
+    display: inline-block;
+    color: rgb(231, 220, 220);
+    font-size: 25pt;
+}
+.contacto {
+    display: inline-block;
+    position: relative;
+    left: 3%;
+}
+.cuerpo {
+    display: flex;
+}
+.costado {
+    background-color: gray;
+    width: 20%;
+}
+.apartados {
+    background-color: rgb(27, 92, 221);
+    color: white;
+    font-size: 20px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.espacios{
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+.espacio {
+    display: inline-block;
+}
+.sites {
+    display: flex;
+    background-color: rgb(47, 124, 196);
+    justify-content: center;   
+    }
+.name {
+    width: 50px;
+    height: 50px;
+}
+.image-profile { /*Imagen de foto*/
+    width: 10%;
+    border-radius: 50%;
+    position: absolute;
+    right: 20%;
+    top: 8%;
+}
+.skills {
+    list-style-type: none; /*Para quitra viñetas de lista*/
+}
+.sangria {
+    padding-left: 3%;
+}
+.sangri{
+    text-indent: 20%;
+}
+.puestos{
+    color: rgb(47, 124, 196);
+    margin: 1%;
+}
